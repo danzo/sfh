@@ -543,3 +543,8 @@ function sfh2024_scripts_loader() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'sfh2024_scripts_loader' );
+
+
+
+
+include_once 'functions-additional.php';

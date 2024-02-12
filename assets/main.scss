@@ -12,6 +12,10 @@
 
 // 2. Include any default variable overrides here
 
+
+$primary: #2aa2a0;
+
+
 // Options
 $enable-dark-mode: false;
 $enable-rounded: true;
@@ -114,6 +118,8 @@ $link-decoration: none;
 /**
  * General
  */
+
+.view {outline:1px solid #0f0;}
 
 body {
 	&.page-template-page-full {

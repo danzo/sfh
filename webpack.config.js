@@ -15,6 +15,7 @@ module.exports = {
 				overlay: false,
 			},
 			hot: false,
+			liveReload: false,
 			compress: true,
 			devMiddleware: {
 				writeToDisk: true,
