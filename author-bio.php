@@ -9,6 +9,7 @@ if ( get_the_author_meta( 'description' ) ) :
 	<div class="row">
 		<div class="col-sm-12">
 			<h2>
+				
 				<?php
 					echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'sfh2024_author_bio_avatar_size', 48 ) ) . '&nbsp;';
 					printf( esc_html__( 'About %s', 'sfh2024' ), get_the_author() );
