@@ -1,48 +1,22 @@
 <?php
 /**
- * Template Name: Page (Full width)
+ * Template Name: Front Page
  * Description: Page template full width.
  *
  */
+
+echo do_shortcode('[wpv-post-body view_template="front-page-hero-ct"]');
+
 
 get_header();
 
 the_post();
 ?>
 
-<?php the_post_thumbnail('full', array('class' => 'img-fluid')); ?>
-
-
 <div id="post-<?php the_ID(); ?>" <?php post_class( 'content' ); ?>>
 
-
-
 	<h1 class="entry-title"><?php the_title(); ?></h1>
-	<?php
-		the_content();
-
-
-
-
-
-
-
-
-
-
-		wp_link_pages(
-			array(
-				'before'   => '<nav class="page-links" aria-label="' . esc_attr__( 'Page', 'sfh2024' ) . '">',
-				'after'    => '</nav>',
-				'pagelink' => esc_html__( 'Page %', 'sfh2024' ),
-			)
-		);
-		edit_post_link(
-			esc_attr__( 'Edit', 'sfh2024' ),
-			'<span class="edit-link">',
-			'</span>'
-		);
-	?>
+	
 </div><!-- /#post-<?php the_ID(); ?> -->
 <?php
 	// If comments are open or we have at least one comment, load up the comment template.

@@ -15,9 +15,13 @@
 		</main><!-- /#main -->
 		<footer id="footer">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<p><?php printf( esc_html__( '&copy; %1$s %2$s. All rights reserved.', 'sfh2024' ), wp_date( 'Y' ), get_bloginfo( 'name', 'display' ) ); ?></p>
+				<div class="row align-items-center">
+					<div class="col-md-2">
+<img src="http://localhost/sfh/wp-content/uploads/2016/11/cropped-sfh-icon.png" width="160" class="img-fluid">
+					</div>
+					<div class="col-md-8">
+						<p>Scottsdale Family Health<br>3501 N. Scottsdale Road, Suite 334<br>Scottsdale, AZ 85251<br><a href="tel:4809414845">(480) 941-4845</a></p>
+						<p class="mb-0"><?php printf( esc_html__( '&copy; %1$s %2$s. All rights reserved.', 'sfh2024' ), wp_date( 'Y' ), get_bloginfo( 'name', 'display' ) ); ?></p>
 					</div>
 
 					<?php
