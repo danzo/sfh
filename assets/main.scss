@@ -48,7 +48,7 @@ $gray-800: #343a40;
 $gray-900: #212529;
 
 // Color vars
-$blue: #014fbe;
+$blue: #154360;
 $indigo: #6610f2;
 $purple: #6f42c1;
 $pink: #d63384;
@@ -68,8 +68,10 @@ $font-family-base: $font-family-sans-serif;
 
 $link-decoration: underline;
 
-$headings-color: $teal;
-
+$headings-color: $blue;
+hr{
+	color:$teal !important;
+}
 .intro{
 	font-size:1.5rem;
 }

@@ -5,6 +5,7 @@
  */
 
 
+remove_filter('the_content', 'wpautop');
 
 /**
  * Font Awesome Kit Setup
