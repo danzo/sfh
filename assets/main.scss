@@ -129,14 +129,19 @@ hr{
 .view {outline:1px solid #0f0;}
 
 body {
+	background-color: rgba($teal, .1);
 	&.page-template-page-full {
 		#main {
 			max-width: 100%;
 		}
 	}
-
+	main{
+		background-color: #fff;
+		padding-left:1.5rem !important;
+		padding-right:1.5rem !important;
+	}
 	&.home{
-		background-color: rgba($teal, .1);
+		
 	}
 
 	/* If WP-Adminbar is visible */
